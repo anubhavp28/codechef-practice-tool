@@ -1,0 +1,33 @@
+.app-search-bar {
+    width : 100%;
+    height : 9.5rem;
+    background-color : #f7f7f7;
+    padding : 0 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.app-search-container {
+    position: relative;
+    width: 850px;
+    max-width: 1200px;
+    margin: 1.5rem 2% 0rem 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.app-suggestions-container {
+    position : absolute;
+    left : 0;
+    right: 0;
+    overflow-y: scroll;
+    max-height: 297px;
+    border-radius: 0.25rem;
+    z-index: 1000;
+}
+
+.app-suggestions-container-active {
+    border: 1px solid rgba(0,0,0,.15);
+}
