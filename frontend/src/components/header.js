@@ -16,12 +16,19 @@ export default class Header extends Component {
                         <div className="app-nav-logo-container">
                             <img src={logo} style={{ padding: "0.5rem 0rem", height: "inherit" }} />
                         </div>
-                        <a href="javascript::void(0)" className="app-nav-link">
+                        <a
+                            href="javascript::void(0)"
+                            className="app-nav-link"
+                        >
                             Sign In
-                    </a>
+                        </a>
                     </div>
                 </div >
-                <SearchBox addTag={this.props.addTag} removeTag={this.props.removeTag} queryTags={this.props.queryTags} />
+                <SearchBox
+                    addTag={this.props.addTag}
+                    removeTag={this.props.removeTag}
+                    queryTags={this.props.queryTags}
+                />
             </>
         )
     }

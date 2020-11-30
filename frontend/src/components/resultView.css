@@ -8,3 +8,14 @@
 .page-nav {
     margin: 1rem 0rem 3rem 0rem;
 }
+
+.page-buttons {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.space {
+    padding-left : 15px;
+}

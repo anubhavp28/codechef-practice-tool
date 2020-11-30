@@ -18,16 +18,6 @@
     align-items: center;
 }
 
-.app-suggestions-container {
-    position : absolute;
-    left : 0;
-    right: 0;
-    overflow-y: scroll;
-    max-height: 297px;
-    border-radius: 0.25rem;
-    z-index: 1000;
-}
-
-.app-suggestions-container-active {
-    border: 1px solid rgba(0,0,0,.15);
+.space {
+    padding-left : 15px;
 }

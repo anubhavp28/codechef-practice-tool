@@ -8,13 +8,16 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       queryTags: ["easy-medium"],
+      page: 1
     };
+    if (window.location.protocol == "https:") {
+      window.location.replace("http://quiet-savannah-14489.herokuapp.com/");
+    }
   }
 
   addTag = (tagName) => {
     let currentQuery = [...this.state.queryTags];
     currentQuery.push(tagName);
-    alert(currentQuery);
     this.setState({
       queryTags: [...currentQuery],
     });
@@ -22,11 +25,11 @@ export default class App extends React.Component {
 
   removeTag = (tagName) => {
     let currentQuery = this.state.queryTags.filter((tag) => tag != tagName);
-    alert(`removed ${tagName}`);
     this.setState({
       queryTags: [...currentQuery],
     });
   };
+
 
   render() {
     return (
