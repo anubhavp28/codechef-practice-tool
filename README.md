@@ -18,3 +18,6 @@ The backend is written in [PHP](https://www.php.net/) using the [Slim Framework]
 2. Custom tags per user.
 3. Could anyone of you help me setup SSL on my Azure VM?
 
+## Screenshot
+
+![Screenshot](screenshot.png)

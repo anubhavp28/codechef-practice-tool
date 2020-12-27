@@ -5,8 +5,9 @@ use Slim\Factory\AppFactory;
 
 require __DIR__ . '/vendor/autoload.php';
 
-$USERNAME = "root";
-$PASSWORD = "";
+// :)
+$USERNAME = "lol";
+$PASSWORD = "lol";
 
 $app = AppFactory::create();
 
